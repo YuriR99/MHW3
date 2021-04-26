@@ -1,0 +1,422 @@
+header {
+    color: black;
+    background-image: url("01.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  header::before{
+
+    content: '';
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    bottom: 0;
+
+    right: 0;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+  body{
+      margin: 0px;
+  }
+
+  footer {
+    background-color: blanchedalmond;
+    color: rgba(255, 255, 255, .8);
+    padding: 25px;
+    text-align: center;
+  }
+  footer p {
+    color: black;
+    font-family: 'Lobster', cursive;
+  }
+
+  footer b{
+    font-size: 27px;
+  }
+  #logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo img{
+    height: auto;
+    width: 250px;
+}
+
+  #Barra2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #Barra2 a {
+    font-size: 30px;
+    margin: 15px;
+  }
+  .link{
+    color: black;
+  }
+  #login{
+    margin: 15px;
+    font-size: 20px;
+  }
+header nav {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:blanchedalmond;
+  height: 90px;
+  font-size: .875em;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+}  
+#Barra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+    cursor: pointer;
+}
+
+a.button {
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 100px;
+    letter-spacing: auto;
+    text-decoration: none; 
+    color:black;
+  }
+  a.button:hover {
+    background-color:black;
+    color:blanchedalmond;
+  }
+  #menu {
+    display: none;
+  }
+  
+  #menu div {
+    width: 25px;
+    height: 3px;
+    background-color:black;
+    margin: 5px 0;
+  }
+  #loghi{
+    display: flexbox;
+    justify-content: space-between;
+  }
+  #loghi img{
+    height: auto;
+    width: 75px;
+    cursor: pointer;
+  }
+  section{
+    margin: 100px 125px;
+    text-align: center;
+  }
+  
+  .det{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+
+  .det img{
+    height: 250px;
+    width: 400px;
+
+  }
+  #I1 img{
+    box-shadow: 10px 10px 59px -26px rgba(0, 0, 0, 0.75);
+    border: 2px solid black;
+  }
+  #I1 p{
+    font-family: 'Oswald', sans-serif;
+  }
+  #I1 h1{
+    font-family: 'Oswald', sans-serif;
+  }
+  #I2 img{
+    box-shadow: 10px 10px 59px -26px rgba(0, 0, 0, 0.75);
+    border: 2px solid black;
+  }
+  #I2 p{
+    font-family: 'Inconsolata', monospace;
+  }
+  #I2 h1{
+    font-family: 'Inconsolata', monospace; 
+  }
+  #I3 img{
+    box-shadow: 10px 10px 59px -26px rgba(0, 0, 0, 0.75);
+    border:2px solid black;
+  }
+  
+  #I3 p{
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+  }
+  #I3 h1{
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+  }
+
+ 
+  #Testo2 h1{
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  #Testo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #linea{
+    background-color: black;
+    margin-top:0px;
+    height: 1px;
+    width: 100%;
+    align-items: center;
+  }
+  #detTesto{ 
+    
+    font-size: 3.5vw;
+    color: rgb(255, 216, 157);
+    font-family: 'Kiwi Maru', serif;
+    text-align: center;
+  }
+  #Testo1{
+    height: 225px;
+    width: 55%;
+    border:2px solid  rgb(255, 216, 157);
+    z-index: 1;
+    position: relative;
+  }
+
+  /*Parte 2*/
+  #Barra2 a:link{
+
+    text-decoration: none; 
+  }
+  #Ricerca{
+    border-radius: 50px;
+  }
+  .Sel{
+  background-color:blanchedalmond;
+  }
+  
+  #ImgS{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 75px;
+  }
+  .imgH{
+    height: 250px;
+    width: 400px;
+    box-shadow: 10px 10px 59px -26px rgba(0, 0, 0, 0.75);
+    border:2px solid black;
+  }
+  #ImgS div{
+    margin: 1%;
+    width: 31%;
+    text-align: left;
+    font-family: 'Inconsolata', monospace; 
+  }
+  #ImgP{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 75px;
+  }
+  #ImgP div{
+    margin: 1%;
+    width: 31%;
+    text-align: left;
+    font-family: 'Inconsolata', monospace; 
+  }
+  .star{
+      height: 25px ;
+      width: 25px ;
+  }
+  .box{
+    display: flex ;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between ;
+  }
+  .N{
+    display: none;
+  }
+  .Sel{
+    font-family: 'Lobster', cursive;
+  }
+  .D strong{
+    font-family: 'Lobster', cursive;
+  }
+  .D p{
+    font-family: 'Lobster', cursive;
+  }
+  .box h1{
+    font-family: 'Lobster', cursive;
+  }
+
+  #loginS{
+    color: black;
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*Parte API*/
+ #List{
+  background-color:blanchedalmond;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+ }
+ .linea{
+  background-color: black;
+  margin-top:0px;
+  height: 1px;
+  width: 50%;
+  align-items: center;
+  margin-left: 25%;
+ }
+ #List h1{
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+ }
+ #ListaAPI h1{
+  font-size: 20px;
+ }
+
+ #ListaH h2{
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+ }
+
+.meteo{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.meteo img{
+  border-radius: 50%;
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 59px -26px rgba(0, 0, 0, 0.75);
+}
+ 
+  /*Mobile*/
+  @media (max-width: 1124px) {
+    #detTesto{
+      margin-top: 55px;
+    }
+    section{
+      display: flex;
+      flex-direction: column;
+    }
+    #Testo2 h1{
+      font-size: 40px;
+    }
+    .det{
+      flex-direction: column;
+    }
+    footer b{
+      font-size: 20px;
+    }
+    #ImgP{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 75px;
+    }
+
+    #ImgS{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 75px;
+    }
+    #Det p{
+      font-size: 8px;
+    }
+  }
+
+  @media (max-width: 1532px){
+    #Barra2 {
+      display: none;
+    }
+    #login{
+      display: none;
+    }
+    #menu {
+      display: block;
+    }
+
+    #detTesto{
+      margin-top: 45px;
+    }
+  }
+
+  @media (max-width: 500px){
+    #Testo2 h1{
+      font-size: 20px;
+    }
+
+    #detTesto{
+      margin-top: 85px;
+    }
+  }
+
+  @media (max-width: 652px){
+    .det img{
+      height: 125px;
+      width: 200px;
+    }
+    footer b{
+      font-size: 15px;
+    }
+    #detTesto{
+      padding-top: 25px;
+    }
+  }
+
+  @media (max-width : 800px){
+    #detTesto{
+      margin-top: 65px;
+    }
+  }
+
+  @media (max-width: 425px){
+    .det img{
+      height: 100px;
+      width: 100px;
+    }
+  }
+  
